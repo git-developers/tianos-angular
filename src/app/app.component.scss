@@ -66,4 +66,26 @@ a, span.tag {
   text-decoration: none;
 }
 
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
 
+.toolbar img {
+  margin: 0 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  font-size: 12px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  line-height: 19px;
+}
